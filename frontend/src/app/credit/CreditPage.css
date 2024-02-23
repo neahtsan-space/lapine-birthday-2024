@@ -13,7 +13,7 @@
   .credit-title{
     display: flex;
     font-size: 7vh;
-    color: pink;
+    color: aqua;
   }
   .credit-list {
     display: flex;
@@ -35,7 +35,7 @@
   
   .credit-name {
     font-size: 3vh; /* Adjust font size */
-    color: hotpink; /* Text color */
+    color: aquamarine; /* Text color */
     margin-bottom: 0.5vh; /* Add some bottom margin */
     text-decoration: none; /* Remove underline */
 }
@@ -87,7 +87,7 @@
     .credit-title{
       display: flex;
       font-size: 15vh;
-      color: pink;
+      color: aqua;
     }
     .credit-list {
       display: flex;
@@ -109,7 +109,7 @@
     
     .credit-name {
       font-size: 3vh; /* Adjust font size */
-      color: hotpink; /* Text color */
+      color: aquamarine; /* Text color */
       margin-bottom: 0.5vh; /* Add some bottom margin */
       text-decoration: none; /* Remove underline */
   }
@@ -140,7 +140,7 @@
     }
     
     .credit-item {
-      color: #ccc;
+      color: aquamarine;
       font-size: 5vh;
       margin: 1vh 0;
     }
