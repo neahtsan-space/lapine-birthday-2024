@@ -1,0 +1,135 @@
+/* mobile css*/
+@media screen and (max-width: 768px) {
+  #app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 10px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .dashboard-description{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 6vh;
+    height: 'auto' ;
+  }
+
+  .dashboard-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    padding: 10px;
+  }
+
+}
+/*pc css*/
+@media (min-width: 768px){
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    align-items: center;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .dashboard-description{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 15vh;
+  }
+  .dashboard-description2{
+    display: 'flex'; 
+    align-items: 'center'; 
+    justify-content: 'center';
+    text-shadow: 2px 2px rgb(233, 82, 233); 
+    background-color: rgb(216, 62, 195);
+    opacity: 0.4;
+    padding: 2vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+  }
+
+  .dashboard-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    padding: 10px;
+    text-shadow: 4px 4px rgb(255, 255, 255); 
+  }
+
+}
