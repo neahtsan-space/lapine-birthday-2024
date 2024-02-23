@@ -66,7 +66,7 @@ const WishCardTemplate: React.FC<{wishCard: IWishCard, allWishes: IWishCard[], c
                     >
                 <Meta style={{ fontWeight: 'bold', overflow: 'hidden' ,userSelect: 'none'}}
                             title={
-                                <span style={{ color: 'blue', fontWeight: 'bold' }}>
+                                <span style={{ color: 'rgba(112,91,247,1)', fontWeight: 'bold' }}>
                                     {wishCard.name} #{wishCard.cardNumber}
                                 </span>
                             }
@@ -105,7 +105,7 @@ const WishCardTemplate: React.FC<{wishCard: IWishCard, allWishes: IWishCard[], c
                     }}>
                     <Meta style={{ fontWeight: 'bold', overflow: 'hidden' }}
                         title={
-                            <p style={{ color: 'blue', fontWeight: 'bold', fontSize:'150%', overflow:'hidden' ,textOverflow: 'ellipsis',whiteSpace: 'normal' }}>
+                            <p style={{ color: 'rgba(112,91,247,1)', fontWeight: 'bold', fontSize:'150%', overflow:'hidden' ,textOverflow: 'ellipsis',whiteSpace: 'normal' }}>
                                 {currentWish.name} #{currentWish.cardNumber}
                             </p>
                         }
