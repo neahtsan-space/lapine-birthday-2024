@@ -102,10 +102,8 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
         </Swiper>
       </div>
       )}
-      <div className='dashboard-description' style={{ background: DASHBOARD_DESC_BG}}>
-        <div className='dashboard-description2' style={{backgroundColor: DASHBOARD_DESC_BG2 }}>
+      <div className='dashboard-description' style={{ background: DASHBOARD_DESC_BG}}>        
         {currentDescription}
-        </div>
       </div>
     </div>
   );

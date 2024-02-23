@@ -16,15 +16,15 @@ export const button5_EN = "Credit"
 // Button in TH
 export const button1_TH = "เกี่ยวกับ Polygon"
 export const button2_TH = "สินค้า Polygon"
-export const button3_TH = "สินค้า Lucene"
-export const button4_TH = "สนับสนุน Lucene"
+export const button3_TH = "สินค้า Lapine"
+export const button4_TH = "สนับสนุน Lapine"
 export const button5_TH = "คณะผู้จัดทำ"
 
 //All Button URL
 export const button1_URL = "https://www.plg.tv/"
 export const button2_URL = "https://www.vforgeshop.com/category/19/polygon"
-export const button3_URL = "https://www.vforgeshop.com/category/14/polygon/lucene"
-export const button4_URL = "https://tipme.in.th/luceneplg"
+export const button3_URL = "https://www.vforgeshop.com/category/14/polygon/lapine"
+export const button4_URL = "https://tipme.in.th/lapineplg"
 export const button5_URL = "https://twitter.com/NeahtSan2nd"
 export const CREDIT_PATH = '/credit'
 
