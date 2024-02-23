@@ -25,7 +25,7 @@ export const CREATE_WISHCARD_BUTTON_WISH_WARNING = 'จำกัด: อัก�
 export const CREATE_WISHCARD_MODAL_WISH_PLACEHOLDER = 'อยากจะใส่คำอวยพร ความปราถนา หรือคำทักทายใส่มาได้เลยยย'
 
 // sticker directory name
-export const DIR_NAME = '/lucene_stickers';
+export const DIR_NAME = '/lapine_stickers';
 const getImagePath = (fileName: string) => `${DIR_NAME}/${fileName}`;
 
 
@@ -48,14 +48,14 @@ export const COLOR_4 = '#1A3779' // rgb(206, 202, 184)
 
 
 // decorate sticker
-export const STICKER_1 = getImagePath('ne1.webp');
-export const STICKER_2 = getImagePath('ne2.webp');
+export const STICKER_1 = getImagePath('pu1.webp');
+export const STICKER_2 = getImagePath('pu2.webp');
 export const STICKER_3 = getImagePath('ne3.webp');
 export const STICKER_4 = getImagePath('ne4.webp');
 
 // hoku sticker
-export const STICKER_5 = getImagePath('ne1.webp');
-export const STICKER_6 = getImagePath('ne2.webp');
+export const STICKER_5 = getImagePath('pu1.webp');
+export const STICKER_6 = getImagePath('pu2.webp');
 export const STICKER_7 = getImagePath('ne3.webp');
 export const STICKER_8 = getImagePath('ne4.webp');
 

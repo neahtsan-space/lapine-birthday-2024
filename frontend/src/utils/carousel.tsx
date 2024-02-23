@@ -23,8 +23,8 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
   };
 
   return (
-    <div style={{userSelect: 'none',backgroundColor: DASHBOARD_BG}}>
-      <div className='dashboard-title' style={{backgroundColor: DASHBOARD_TITLE_BG}}>{DASHBOARD_TITLE} {EMOJI_DASHBOARD_TITLE}</div>
+    <div style={{userSelect: 'none',background: DASHBOARD_BG}}>
+      <div className='dashboard-title' style={{background: DASHBOARD_TITLE_BG}}>{DASHBOARD_TITLE} {EMOJI_DASHBOARD_TITLE}</div>
       <Swiper
         thumbs={{ swiper: thumbsSwiper }}
         slidesPerView={1}
@@ -54,7 +54,7 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
             style={{
               position: 'relative',
               width: '100%',
-              backgroundColor: DASHBOARD_BG,
+              background: DASHBOARD_BG,
               minWidth: '25vw',
             }}>
               <Image
@@ -85,7 +85,7 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
               <div style={{
                 position: 'relative',
                 height: '5.625vw',
-                backgroundColor: DASHBOARD_BG,
+                background: DASHBOARD_BG,
                 display: 'flex',
                 alignItems: 'center', 
                 justifyContent: 'center',
@@ -102,7 +102,7 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
         </Swiper>
       </div>
       )}
-      <div className='dashboard-description' style={{ backgroundColor: DASHBOARD_DESC_BG}}>
+      <div className='dashboard-description' style={{ background: DASHBOARD_DESC_BG}}>
         <div className='dashboard-description2' style={{backgroundColor: DASHBOARD_DESC_BG2 }}>
         {currentDescription}
         </div>
