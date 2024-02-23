@@ -1,6 +1,6 @@
 export const footertext = "Lapine Birthday 2024"
 
-export const imglink1_URL = "https://discord.gg/ZmsayHGBtp"
+export const imglink1_URL = "https://discord.gg/2u56cUNHSX"
 export const imglink2_URL = "https://www.youtube.com/@LapinePLG"
 export const imglink3_URL = "https://twitter.com/LapinePLG"
 export const imglink4_URL = "https://www.facebook.com/LapinePolygon"
