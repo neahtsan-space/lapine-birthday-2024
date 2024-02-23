@@ -87,7 +87,7 @@
     .credit-title{
       display: flex;
       font-size: 15vh;
-      color: aqua;
+      color: rgba(244,102,254,1);
     }
     .credit-list {
       display: flex;
@@ -109,13 +109,13 @@
     
     .credit-name {
       font-size: 3vh; /* Adjust font size */
-      color: aquamarine; /* Text color */
+      color: rgba(244,102,254,1); /* Text color */
       margin-bottom: 0.5vh; /* Add some bottom margin */
       text-decoration: none; /* Remove underline */
   }
     .credit-name:hover {
     font-size: 3vh; /* Adjust font size */
-    color: rgb(255, 255, 255); /* Text color */
+    color: white; /* Text color */
   }
   
     .credit-description {
