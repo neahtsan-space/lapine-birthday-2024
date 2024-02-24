@@ -18,6 +18,26 @@
   }
 }
 
+/* tablet css */
+@media (min-width: 600px) and (max-width:1281px) {
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 2px;
+    margin: 0 auto;
+  }
+  
+  .card-grid-item {
+    flex: 1 1 calc(25% - 32px);
+    max-width: calc(25% - 32px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /*pc css*/
 @media (min-width: 768px){
 .card-grid {
