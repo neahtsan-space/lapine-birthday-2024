@@ -50,7 +50,7 @@
 }
 
 /*tablet css*/
-@media (min-width: 600px){
+@media (min-width: 600px)and (max-width:1281px){
     .wish-command-container {
         width: 100%;
         margin-left: 25%;

@@ -11,7 +11,7 @@
 }
 
 /*tablet css*/
-@media (min-width: 600px) {
+@media (min-width: 600px)and (max-width:1281px) {
   .item {
     height: 25vh; /* Each item takes one-fourth of the container's height on mobile */
   }

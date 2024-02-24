@@ -1,5 +1,5 @@
 /* Mobile responsiveness */
-@media  screen and(max-width: 600px){
+@media  screen and (max-width: 600px){
 .carousel {
   position: static; /* Change position to relative */
   top: 0; /* Reset top */
@@ -52,7 +52,7 @@ text-align: center;
 line-height: 3; 
 }
 /* Tablet responsiveness */
-@media (min-width: 600px){
+@media (min-width: 600px)and (max-width:1281px){
   .carousel {
     position: static; /* Change position to relative */
     top: 0; /* Reset top */
