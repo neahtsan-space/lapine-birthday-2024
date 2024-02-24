@@ -1,5 +1,5 @@
-/* Mobile responsiveness */
-@media screen and(max-width: 768px) {
+/* mobile css */
+@media screen and(max-width: 600px) {
 .recent-wish-container {
   border: 1px solid transparent;
   width: 100%;
@@ -26,13 +26,15 @@
 }
 
 
-/* pc Container styles */
-@media (min-width: 768px){
+/* tablet css */
+@media (min-width: 600px)and (max-width:1281px){
 .recent-wish-container {
     border: 1px solid transparent;
     width: 100%;
     height: 100%;
-    display: flex;
+    display:'flex';
+    
+
   }
 
   
@@ -40,14 +42,41 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     background-color: transparent;
     padding-bottom: 5%;
     margin-bottom: 10px;
     width: 100%;
     height: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    gap: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 2%;
+    overflow: scroll;
   }
 }
+/* pc css */
+@media (min-width: 1281px){
+  .recent-wish-container {
+      border: 1px solid transparent;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      overflow: clip;
+    }
+  
+    
+    .wish-card {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      padding-bottom: 5%;
+      margin-bottom: 10px;
+      width: 100%;
+      height: 100%;
+      padding-left: 10%;
+      padding-right: 10%;
+      gap: 5%;
+    }
+  }
+  
