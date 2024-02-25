@@ -9,6 +9,11 @@ export const WISHCOMMAND_CONTACT_NAME2 = 'Neaht.!'
 export const EMOJI_CAT = ' ≽^•⩊•^≼ ₊˚⊹♡'
 export const POPCAT_PATH ='/popcat'
 
+export const CONTACT_INFO = 'https://twitter.com/NeahtSan2nd'
+
+export const DISABLE_CREATE_WISH = false;
+export const DISABLE_VIEW_WISH = false;
+
 export const ENABLE_CREATE_WISH = true;
 export const ENABLE_VIEW_WISH = true;
 

@@ -100,10 +100,10 @@ const PrimaryButton: React.FC<{ text: string }> = ({ text }) => (
 interface DefaultButtonProps {
   buttonName: string;
   url: string;
-  showbutton2:boolean;
+  disable:boolean;
 }
 
-const DefaultButton: React.FC<DefaultButtonProps> = ({ buttonName, url, showbutton2}) => {
+const DefaultButton: React.FC<DefaultButtonProps> = ({ buttonName, url ,disable}) => {
   const router = useRouter();
 
   if (!router) return null;
@@ -112,7 +112,7 @@ const DefaultButton: React.FC<DefaultButtonProps> = ({ buttonName, url, showbutt
     router.push(url);
   };
 
-  return showbutton2 &&<Button className='buttonEffect' size='large' onClick={handleClick}>{buttonName}</Button>;
+  return <Button className='buttonEffect' size='large' onClick={handleClick} disabled={disable}>{buttonName}</Button>;
 };
 
 const LinkButton: React.FC<{ text: string }> = ({ text }) => (
