@@ -49,7 +49,7 @@
 .flowing-text{
   text-align: center;
   font-family: 'Arial', sans-serif;
-  color: plum; /* Consider changing the color for better contrast if needed */
+  color: plum; 
   font-size: 20px;
   font-weight: bold;
   line-height: 1.5;
@@ -86,7 +86,7 @@
   .header-title2 {
     text-align: center;
     font-family: 'Arial', sans-serif;
-    color: hotpink; /* Consider changing the color for better contrast if needed */
+    color: hotpink; 
     font-size: 30px;
     font-weight: bold;
     padding-bottom: '2%';
@@ -109,7 +109,7 @@
 .flowing-text{
     text-align: center;
     font-family: 'Arial', sans-serif;
-    color: plum; /* Consider changing the color for better contrast if needed */
+    color: plum; 
     font-size: 50px;
     font-weight: bold;
     line-height: 1.5;
@@ -118,26 +118,26 @@
 @keyframes slideLeft {
     0%, 100% {
       transform: translateX(0%);
-      color: rgba(255, 255, 255, 0.5); /* Initial and final color */
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); /* Initial and final shadow */
+      color: rgba(255, 255, 255, 0.5); 
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); 
     }
     50% {
       transform: translateX(-20%);
-      color: rgba(221, 86, 255, 0.829); /* Red */
-      text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829); /* Red */
+      color: rgba(221, 86, 255, 0.829); 
+      text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829);
     }
   }
   
   @keyframes slideRight {
     0%, 100% {
       transform: translateX(0%);
-      color: rgba(221, 86, 255, 0.829); /* Red */
-      text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829); /* Red */
+      color: rgba(221, 86, 255, 0.829); 
+      text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829); 
     }
     50% {
       transform: translateX(20%);
-      color: hsla(0, 0%, 100%, 0.5); /* Initial and final color */
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); /* Initial and final shadow */
+      color: hsla(0, 0%, 100%, 0.5); 
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); 
     }
   }
   
@@ -201,7 +201,7 @@
     .header-title2 {
       text-align: center;
       font-family: 'Arial', sans-serif;
-      color: hotpink; /* Consider changing the color for better contrast if needed */
+      color: hotpink; 
       font-size: 30px;
       font-weight: bold;
       padding-bottom: '2%';
@@ -224,7 +224,7 @@
   .flowing-text{
       text-align: center;
       font-family: 'Arial', sans-serif;
-      color: plum; /* Consider changing the color for better contrast if needed */
+      color: plum; 
       font-size: 50px;
       font-weight: bold;
       line-height: 1.5;
@@ -233,26 +233,26 @@
   @keyframes slideLeft {
       0%, 100% {
         transform: translateX(0%);
-        color: rgba(255, 255, 255, 0.5); /* Initial and final color */
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); /* Initial and final shadow */
+        color: rgba(255, 255, 255, 0.5); 
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); 
       }
       50% {
         transform: translateX(-20%);
-        color: rgba(221, 86, 255, 0.829); /* Red */
-        text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829); /* Red */
+        color: rgba(221, 86, 255, 0.829); 
+        text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829); 
       }
     }
     
     @keyframes slideRight {
       0%, 100% {
         transform: translateX(0%);
-        color: rgba(221, 86, 255, 0.829); /* Red */
-        text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829); /* Red */
+        color: rgba(221, 86, 255, 0.829); 
+        text-shadow: 0 0 20px rgba(221, 86, 255, 0.829), 0 0 40px rgba(221, 86, 255, 0.829), 0 0 60px rgba(221, 86, 255, 0.829); 
       }
       50% {
         transform: translateX(20%);
-        color: hsla(0, 0%, 100%, 0.5); /* Initial and final color */
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); /* Initial and final shadow */
+        color: hsla(0, 0%, 100%, 0.5); 
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5); 
       }
     }
     

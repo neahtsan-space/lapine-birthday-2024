@@ -43,10 +43,10 @@
 
   .custom-img {
     width: 20px; 
-    height: 20px; /* Maintain aspect ratio */
-    border-radius: 50%; /* Round the corners */
-    border: 2px solid #ccc; /* Add a border */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    height: 20px; 
+    border-radius: 50%; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -100,36 +100,36 @@
 
   .custom-img {
     width: 40px; 
-    height: 40px; /* Maintain aspect ratio */
-    border-radius: 50%; /* Round the corners */
-    border: 2px solid #ccc; /* Add a border */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    height: 40px; 
+    border-radius: 50%; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
     margin-left: 10px;
     margin-right: 10px;
     transition: transform 0.2s;
 }
-
+/* Increase the size on hover */
   .discord:hover .custom-img {
-    transform: scale(1.5); /* Increase the size on hover */
-    border: 2px solid #9c3af8; /* Add a border */
+    transform: scale(1.5); 
+    border: 2px solid #9c3af8; 
 }
 
   .youtube:hover .custom-img {
-  transform: scale(1.5); /* Increase the size on hover */
-  border: 2px solid #9c3af8; /* Add a border */
+  transform: scale(1.5); 
+  border: 2px solid #9c3af8; 
 }
   .x_twitter:hover .custom-img {
-    transform: scale(1.5); /* Increase the size on hover */
-    border: 2px solid #9c3af8; /* Add a border */
+    transform: scale(1.5); 
+    border: 2px solid #9c3af8; 
   }
 
   .facebook:hover .custom-img {
-  transform: scale(1.5); /* Increase the size on hover */
-  border: 2px solid #9c3af8; /* Add a border */
+  transform: scale(1.5); 
+  border: 2px solid #9c3af8; 
   }
 
 }
-
+/*colorwave animation*/
 @keyframes rainbow-wave {
   0% { color: red; }
   16.666% { color: orange; }
@@ -189,36 +189,36 @@
   
     .custom-img {
       width: 40px; 
-      height: 40px; /* Maintain aspect ratio */
-      border-radius: 50%; /* Round the corners */
-      border: 2px solid #ccc; /* Add a border */
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow */
+      height: 40px; 
+      border-radius: 50%; 
+      border: 2px solid #ccc; 
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
       margin-left: 10px;
       margin-right: 10px;
       transition: transform 0.2s;
   }
-  
+  /* Increase the size on hover */
     .discord:hover .custom-img {
-      transform: scale(1.5); /* Increase the size on hover */
-      border: 2px solid #9c3af8; /* Add a border */
+      transform: scale(1.5); 
+      border: 2px solid #9c3af8; 
   }
   
     .youtube:hover .custom-img {
-    transform: scale(1.5); /* Increase the size on hover */
-    border: 2px solid #9c3af8; /* Add a border */
+    transform: scale(1.5); 
+    border: 2px solid #9c3af8; 
   }
     .x_twitter:hover .custom-img {
-      transform: scale(1.5); /* Increase the size on hover */
-      border: 2px solid #9c3af8; /* Add a border */
+      transform: scale(1.5); 
+      border: 2px solid #9c3af8; 
     }
   
     .facebook:hover .custom-img {
-    transform: scale(1.5); /* Increase the size on hover */
-    border: 2px solid #9c3af8; /* Add a border */
+    transform: scale(1.5); 
+    border: 2px solid #9c3af8; 
     }
   
   }
-  
+  /*colorwave animation*/
   @keyframes rainbow-wave {
     0% { color: red; }
     16.666% { color: orange; }

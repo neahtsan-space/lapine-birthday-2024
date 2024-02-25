@@ -30,7 +30,7 @@
     font-size: 10px;
     background: #fff;
   
-    /* Center slide text vertically */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@
       font-size: 18px;
       background: #fff;
     
-      /* Center slide text vertically */
+
       display: flex;
       justify-content: center;
       align-items: center;
@@ -115,7 +115,6 @@
       text-align: center;
       padding-left: 5%;
       padding-right: 5%;
-      font-size: x-large;
   
     }
   
@@ -125,7 +124,6 @@
       justify-content: center;
       height: 20vh;
       padding: 10px;
-      font-size: xxx-large; 
     }
   }
 
@@ -163,7 +161,7 @@
     font-size: 18px;
     background: #fff;
   
-    /* Center slide text vertically */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +181,6 @@
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    font-size: x-large;
 
   }
 
@@ -193,6 +190,5 @@
     justify-content: center;
     height: 20vh;
     padding: 10px;
-    font-size: xxx-large; 
   }
 }

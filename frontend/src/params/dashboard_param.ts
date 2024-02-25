@@ -23,6 +23,9 @@ export const DASHBOARD_IMG_5_DESC = 'เหยยย แบบนี้จะพ
 export const DASHBOARD_IMG_6_DESC = 'ขอบคุณคุณ F สำหรับงาน ART น่ารักๆนะครับ!'
 export const DASHBOARD_IMG_7_DESC = 'Mock Image 7 '
 
+export const DASHBOARD_TITLE_FONTSIZE = "xxx-large"
+export const DASHBOARD_DESC_FONTSIZE = "xx-large"
+
 export const ENABLE_CAROUSEL_THUMBS = false;
 
 // Dashboard total img (picture name must be 1.webp, 2.webp, 3.webp, ... n.webp)

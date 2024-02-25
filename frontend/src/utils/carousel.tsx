@@ -7,9 +7,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import { Pagination, Navigation, EffectFade, Autoplay, FreeMode, Thumbs } from 'swiper/modules';
 import '@/css/carousel.css';
-import { dashboardImages, DASHBOARD_TITLE, DASHBOARD_NAVIGATION_COLOR, DASHBOARD_PAGINATION_COLOR, EMOJI_DASHBOARD_TITLE } from '@/params/dashboard_param';
-import { DASHBOARD_BG, DASHBOARD_DESC_BG, DASHBOARD_DESC_BG2, DASHBOARD_TITLE_BG } from '@/params/background_params';
+import { dashboardImages, DASHBOARD_TITLE, DASHBOARD_NAVIGATION_COLOR, DASHBOARD_PAGINATION_COLOR, EMOJI_DASHBOARD_TITLE,DASHBOARD_TITLE_FONTSIZE, DASHBOARD_DESC_FONTSIZE } from '@/params/dashboard_param';
+import { DASHBOARD_BG, DASHBOARD_DESC_BG, DASHBOARD_TITLE_BG } from '@/params/background_params';
 import '@/css/dashboard.css';
+
 const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) => {
   const [currentDescription, setCurrentDescription] = useState<string>('');
   const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
@@ -23,8 +24,8 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
   };
 
   return (
-    <div style={{userSelect: 'none',background: DASHBOARD_BG}}>
-      <div className='dashboard-title' style={{background: DASHBOARD_TITLE_BG}}>{DASHBOARD_TITLE} {EMOJI_DASHBOARD_TITLE}</div>
+    <div style={{ userSelect: 'none', background: DASHBOARD_BG }}>
+      <div className='dashboard-title' style={{background: DASHBOARD_TITLE_BG, fontSize: DASHBOARD_TITLE_FONTSIZE }}>{DASHBOARD_TITLE} {EMOJI_DASHBOARD_TITLE}</div>
       <Swiper
         thumbs={{ swiper: thumbsSwiper }}
         slidesPerView={1}
@@ -85,7 +86,7 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
               <div style={{
                 position: 'relative',
                 height: '5.625vw',
-                background: DASHBOARD_BG,
+                backgroundColor: DASHBOARD_BG,
                 display: 'flex',
                 alignItems: 'center', 
                 justifyContent: 'center',
@@ -102,7 +103,7 @@ const DashboardCarousel: React.FC<{ showThumbs: boolean }> = ({ showThumbs }) =>
         </Swiper>
       </div>
       )}
-      <div className='dashboard-description' style={{ background: DASHBOARD_DESC_BG}}>        
+      <div className='dashboard-description' style={{ backgroundColor: DASHBOARD_DESC_BG, fontSize:DASHBOARD_DESC_FONTSIZE}}>
         {currentDescription}
       </div>
     </div>
