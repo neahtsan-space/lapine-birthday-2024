@@ -4,7 +4,7 @@ import "./globals.css";
 import { META_DATA_TITLE, META_DATA_DESCRIPTION } from "@/params/metadata_params";
 import GoogleCaptchaWrapper from "./googleCaptchaWrapper";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -33,8 +33,8 @@ export default function RootLayout({
         <GoogleCaptchaWrapper>
           {children}
         </GoogleCaptchaWrapper>
-        <SpeedInsights />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
