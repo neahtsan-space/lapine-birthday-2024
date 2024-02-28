@@ -16,7 +16,7 @@ export const BUTTON5_TH = "คณะผู้จัดทำ"
 //All Button URL
 export const BUTTON1_URL = "https://www.plg.tv/"
 export const BUTTON2_URL = "https://www.vforgeshop.com/category/19/polygon"
-export const BUTTON3_URL = "https://www.vforgeshop.com/category/14/polygon/lapine"
+export const BUTTON3_URL = "https://www.vforgeshop.com/category/13/polygon/lapine"
 export const BUTTON4_URL = "https://tipme.in.th/lapineplg"
 export const BUTTON5_URL = "/credit"
 export const CREDIT_PATH = '/credit'
